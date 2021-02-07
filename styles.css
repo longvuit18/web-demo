@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-header {
+    background-color: red;
+    height: 10px;
+    color: blue;
+}
+
+#header {
+    height: 150px;
+    background-color: aquamarine;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {}
+
+#language ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+#language ul li {
+    border-right: solid 1px;
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#search {
+    margin-top: 10px;
+}
