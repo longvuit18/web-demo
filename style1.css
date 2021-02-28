@@ -1,0 +1,174 @@
+body{
+    margin:0;
+    padding:0;
+    min-width: 1360px;
+    height: auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+#top{
+    height: 8px;
+    background-color: red;
+}
+#top_2{
+    width:auto;
+    height:120px;
+    background-color: none;
+    display: flex;
+    align-items: center;
+    padding:0px 150px 0px 150px;
+}
+#image {
+    float: left;
+    margin-right: 100px;
+}
+#bar{
+    height: 120px;
+    width:250px;
+    background-color: none;
+    
+}
+#contact{
+    width: auto;
+    height: 50px;
+    background-color: none;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+#contact ul li{
+    list-style-type: none;
+    float:left
+}
+#contact ul li a{
+    line-height: 20px;
+    padding: 0;
+    text-decoration: none;
+    margin:2px;
+    
+}
+.flag{
+    margin-top:5px;
+}
+#searchbar {
+    float: left;
+}
+#searchbar_img{
+    float: right;
+}
+#object{
+    padding-left: 50px;
+}
+.svtl{
+    display: flex;
+    align-items: center;
+}
+.svtl a img{
+    margin-right:10px;
+    margin-bottom: px;
+}
+
+
+#banner{
+        color: yellow;
+        width: auto;
+        height: 360px;
+        background-color: red;
+        padding:0 120px;
+}
+
+#banner_top{
+    width:auto;
+    background-color: #505050;
+}
+#banner ul{
+    margin: 0;
+    padding: 0;   
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#banner ul li {
+    float:left;
+    display: block;
+    background-color: #505050;
+    margin: 0;
+    padding: 0;
+    
+}
+#banner ul li a{
+    font-size: 93%;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    border-right: 0.5px solid #111111;
+  }
+#banner ul li a:hover{
+      
+  }
+.obuon{
+    text-overflow: ellipsis; 
+    overflow: hidden; 
+    white-space: nowrap;
+    padding:0
+}
+.obuon:hover{
+    background-color: #111111;
+}
+#banner_bottom{
+    background-image: url("https://www.hust.edu.vn/documents/202803/243142/banner+web+TET+2021.jpg/94de4157-c55b-4ec1-9634-15777ef4da12?t=1612254176832");
+    height: 310;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#bottom{
+    clear:right;
+    clear: left;
+    width: auto;
+    height: 150px;
+    background-color: none;
+    padding:0 150px;
+}
+#topbottom{   
+    height: 50px;
+    
+    display: flex;
+    align-items:center;
+}
+
+#topbottom ul li {
+    display: inline;
+    padding: 0 44px;
+}
+#bbottom{
+    height: 50px;
+    background-color: none;
+    display: flex;
+    align-items:center;
+}
+#bbottom ul li{
+    padding: 0 30px;
+    display:inline-flex;
+}
+#bbottom ul li a{
+        
+    display: flex;
+    
+    text-decoration: none;
+    border: 0.5px solid white
+}
+#table_bottom{
+    border-collapse: separate;
+    border-spacing: 0px 30px;
+    table-layout: auto;
+    width:80%;
+}
+
+#table_bottom .cell{
+    border:none;
+}
